@@ -561,6 +561,8 @@ function tdcli_update_callback(data)
 <b>]] .. tostring(contacts)..[[</b>
 <code>📂 لینک های ذخیره شده : </code>
 <b>]] .. tostring(links)..[[</b>
+<code>📂 لینک های ذخیره شده : </code>
+<b>]] .. سازنده @ARTIMSAN ..[[</b>					
 ]]
 					return send(msg.chat_id_, 0, text)
 				elseif (text:match("^(ارسال به) (.*)$") and msg.reply_to_message_id_ ~= 0) then
